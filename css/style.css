@@ -1,30 +1,46 @@
-/* temporary styling for layout and design */
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+/* my initial code
+/* temporary styling for layout and design 
 
 body{
 	background-color: #ffffff;
 }
 
 div {
-	border: 1px solid Chocolate;
+	border: 1px solid red;
 }
 
 /* regular css begins here*/
 
-/* centre content for header (graphic and menu) */
+/* centre content for header (graphic and menu) 
 
 .header-content {
-	max-width: 70em;
+	max-width: 60em;
 	margin-left: auto;
 	margin-right: auto;
 	max-height: 3em;
+	border: 1px solid blue;
 }
 
-/* format unorder list for header menu */
+/* format unorder list for header menu 
 
 .logo-left {
 	float: left;
-	margin-right: 30em;
+	margin-right: 25%;
 	max-height: 100%
+	margin: 5px;
 }
 
 .menu-right li {
@@ -41,4 +57,4 @@ div {
 
 a.grey-links:hover {
 	color: #000000;
-}
+} */
