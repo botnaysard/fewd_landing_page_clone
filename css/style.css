@@ -1,0 +1,9 @@
+/* temporary styling for layout and design */
+body{
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+
+/* regular css begins here*/
