@@ -1,12 +1,20 @@
-/* apply a natural box layout model to all elements, but allowing components to change */
+
 html {
-  box-sizing: border-box;
+
+/* set default font smoothing */
+
+	-webkit-font-smoothing: antialiased;
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+  	box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* Navigation Section */
+/*** NAVIGATION SECTION ***/
 
 .top-navigation {
 	background-color: #fff;
@@ -16,68 +24,35 @@ html {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-	border: 1px solid red;
 	padding: 0px 15px;
 }
 
-.top-navigation .links {
+.top-navigation .links {	
+	position: relative;
+	top: 10px;
 	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	letter-spacing: 0.03em;
 }
 
 .top-navigation .links li {
+	margin-left: 25px;
 	display: inline-block;
-	border: 1px solid blue;
+	transition: color 0.2s ease;
+}
+
+.top-navigation .links li:hover {
+	color: #333333;
+	cursor: pointer;
+}
+
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
 }
 
 .top-navigation .logo {
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin-top: 15px;
 }
-
-/* my initial code
-/* temporary styling for layout and design 
-
-body{
-	background-color: #ffffff;
-}
-
-div {
-	border: 1px solid red;
-}
-
-/* regular css begins here*/
-
-/* centre content for header (graphic and menu) 
-
-.header-content {
-	max-width: 60em;
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 3em;
-	border: 1px solid blue;
-}
-
-/* format unorder list for header menu 
-
-.logo-left {
-	float: left;
-	margin-right: 25%;
-	max-height: 100%
-	margin: 5px;
-}
-
-.menu-right li {
-	display: inline-block;
-	margin-right: 1em;
-	vertical-align: middle;
-	text-align: center;
-}
-
-.grey-links {
-	color: #999999;
-	text-decoration: none;
-}
-
-a.grey-links:hover {
-	color: #000000;
-} */
