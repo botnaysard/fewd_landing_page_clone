@@ -23,10 +23,13 @@ html {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
-	width: 970px;
+	width: 46rem;
 	height: 70px;
 	margin: 0 auto;
 	padding: 0px 15px;
@@ -115,34 +118,34 @@ html {
 
 /*** THREE ICONS SECTION ***/
 
-.icon-strip {
+.cases {
 	background-color: #fff;
-	width: 970px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 120px;
-	padding: 0px 0px;
+}
+
+.cases .content {
+	width: 750px;
+	margin: 0 auto;
 	text-align: center;
 }
 
-.icon-strip li {
-	display: inline-block;
-	margin-right: 50px;
-	padding: 0px 1rem;
-}
-
-
-.icon-strip h1 {
+.cases h2 {
 	font-weight: 300;
 	font-size: 2.75rem;
 	color: #1d1e21;
 	margin-top: 1em;
 }
 
-.icon-strip h3 {
+.cases h3 {
 	font-weight: 400;
 	font-size: 1.563rem;
 	color: #1d1e21;
 	margin-top: 1em;
+}
+
+.cases .devices {
+	width: 33.33%;
+	display: inline-block;
+	vertical-align: top;
+	border: 50px;
 }
 
