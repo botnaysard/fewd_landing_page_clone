@@ -8,7 +8,7 @@ html {
 
 /* set default font smoothing */
 
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased; /* useful for all/most sites */
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 
@@ -149,3 +149,50 @@ html {
 	border: 50px;
 }
 
+/*** FOOTER ***/
+
+.social {
+	height: 300px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.social .content {
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fff;
+	border-top: 1px solid #e6e6e6;
+}
+
+.social h5{
+	font-size: 1em;
+	font-weight: 400;
+	color: #1d1e21;
+	margin: 1em 0;
+}
+
+.social .content .icons {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0px;
+}
+
+.social .content li {
+	width: 2.5em;
+	height: 2.5em;
+	display: inline-block;
+	border: 1px solid #eaebec;
+	border-radius: 100px;
+	margin: 0 0.3em;
+}
+
+.social .content .copy {
+	color: #838994;
+	font-weight: 300;
+	font-size: .9em;
+	-webkit-font-smoothing: antialiased;
+}
