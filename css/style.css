@@ -69,48 +69,49 @@ html {
 	background-image: url('../images/karma-landing-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;	
-	background-position:70% 50%;
+	background-position: center bottom;
 	width: 100%;
-	height: 700px;
+	height: 45.938rem;
 	font-family: 'Roboto', sans-serif;
 	color: #838994;
 	font-size: 16px;
 	letter-spacing: 0.03em;
 	text-align: center;
+	overflow: auto; /* Learning note: this is better solution than using margin-top:0 / padding-top:250 in the h1 immediately below, which I did on my own */;
 }
 
 .karma-bg-image h1 {
-	font-weight: 500;
-	font-size: 2.5em;
+	font-weight: 400;
+	font-size: 3em;
 	color: #ffffff;
-	padding-top: 250px;	
-	margin-top: 0px;
+	margin-top: 250px;
 }
 
-.karma-bg-image h2 {
-	font-weight: 400;
+.karma-bg-image h3 {
+	font-weight: 300;
 	font-size: 1.5em;
 	color: #ffffff;
-	margin-top: -0.5em;
+	margin-top: -1em;
 }
 
 .karma-bg-image .orange-button {
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #ffffff;
+	padding-top: .2em;
 	width: 10em;
 	height: 3em;
 	margin: 0 auto;
-	background-color: orange;
+	background-color: #f15b2a;
+	border-style: none;
 	border-radius: 0.3em;
 	transition: background-color 0.2s ease;
 }
 
 .karma-bg-image .orange-button:hover {
-	background-color: gray;
+	background-color: #FF4719;
+	cursor: pointer;
 }
 
-.karma-bg-image .orange-button p {
-	font-weight: 400;
-	font-size: 1.1em;
-	color: #ffffff;
-	padding-top: .75em;
-}
+
 
