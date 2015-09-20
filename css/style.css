@@ -196,3 +196,18 @@ html {
 	font-size: .9em;
 	-webkit-font-smoothing: antialiased;
 }
+
+.social .content .twitter {
+	color: #55acee;
+	padding-top: 10px;
+}
+
+.social .content .facebook {
+	color: #4c66a4;
+	padding-top: 10px;
+}
+
+.social .content .instagram {
+	color: #3f729b;
+	padding-top: 10px;
+}
