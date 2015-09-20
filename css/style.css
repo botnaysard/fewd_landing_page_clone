@@ -132,7 +132,7 @@ html {
 	font-weight: 300;
 	font-size: 2.75rem;
 	color: #1d1e21;
-	margin-top: 1em;
+	margin-top: 2.5em;
 }
 
 .cases h3 {
@@ -155,6 +155,7 @@ html {
 	height: 300px;
 	width: 100%;
 	box-sizing: border-box;
+	margin-top: 6em;
 }
 
 .social .content {
@@ -177,7 +178,6 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1em;
-	margin-bottom: 1em;
 	padding: 0px;
 }
 
